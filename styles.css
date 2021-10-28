@@ -1,0 +1,52 @@
+html {
+  font-family: Helvetica-Neue, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+#board {
+  width: 186px;
+  height: 186px;
+  border: 1px solid silver;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  border: 1px solid silver;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn {
+  background: #f2f2f2;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  box-shadow: none !important;
+}
+.btn:focus {
+  outline: 0 !important;
+}
+
+.text-muted {
+  color: silver;
+}
+.text-success {
+  color: green !important;
+}
+
+.px-5 {
+  padding: 50px !important;
+}
